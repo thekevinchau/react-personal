@@ -4,7 +4,10 @@ import './App.css'
 function App() {
 
   return (
-    <div>Placeholder for Personal Website</div>
+    <div>Placeholder for Personal Website
+
+      <div>Testing another commit</div>
+    </div>
   )
 }
 
