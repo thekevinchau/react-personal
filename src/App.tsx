@@ -1,12 +1,15 @@
-import { useState } from 'react'
+
 import './App.css'
+import { NavBar } from './components/Navbar';
 
 function App() {
 
   return (
-    <div>Placeholder for Personal Website
-
-      <div>Testing another commit</div>
+    <div className = 'test'>
+      <h1 className='text-xl font-bold text-red-500'>
+        Hello TailWind
+      </h1>
+    <NavBar></NavBar>
     </div>
   )
 }

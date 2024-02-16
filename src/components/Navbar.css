@@ -1,0 +1,8 @@
+.Navbar{
+    width: 100vw;
+    height: 10vh;
+    position: sticky;
+    background-color: red;
+    display: flex;
+    align-items: center;
+}
