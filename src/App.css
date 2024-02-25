@@ -1,11 +1,20 @@
 *{
-  background-color: white;
-  color: black;
+  background-color: rgb(19, 19, 19);
 }
 
 
 .test{
   width: 100vw;
   height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainContainer{
+  width: 80rem;
+  display: grid;
+  font-weight: bold;
+  border: 1px solid blue;
 }
 

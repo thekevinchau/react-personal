@@ -1,15 +1,14 @@
 
 import './App.css'
-import { NavBar } from './components/Navbar';
+import { ProfileCard } from './components/ProfileCard'
 
 function App() {
 
   return (
     <div className = 'test'>
-      <h1 className='text-xl font-bold text-red-500'>
-        Hello TailWind
+      <h1 className='mainContainer'>
+        <ProfileCard></ProfileCard>
       </h1>
-    <NavBar></NavBar>
     </div>
   )
 }
